@@ -175,14 +175,14 @@ margin-right: 45px;
 #rr {
   margin-left: 1%;
   margin-right: 0%;
-  font-size: 100px;
-  font-weight: bolder;
+  font-size: 80px;
+  font-weight: bold;
   font-style: inherit;
  font-display: red;
  padding-right: 2px;
  padding-top: 2px;
  padding-left: 2px;
- 
+font-family: sans-serif; 
 }
 form {
  font-size: 25px;
@@ -197,8 +197,8 @@ border-width:thick;
 padding: 5px 5px 5px;
 padding-left: 1em;
 border-radius: 1px;
-width: 35%;
-height: 40%;
+width: 30%;
+height: 31%;
 background-color: #111312;
 background-size: 100px;
 justify-content: center;
