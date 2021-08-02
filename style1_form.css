@@ -189,7 +189,7 @@ form {
   font-weight: bolder;
   font-style: inherit;
  font-display: red;
-margin-left: 35%;
+margin-left: 30%;
 border: 0.5rem outset rgb(140, 150, 240);
 outline: 0.5rem solid rgb(16, 16, 17);
 
@@ -219,3 +219,27 @@ transform:translate(-20px);
 textarea{
   background-color: #31ceae;
 }
+h5{
+  animation:slidein;
+  animation-duration: 6s;
+  animation-iteration-count: infinite ;
+  animation-direction:alternate;
+  }
+   @keyframes slidein {
+    from {  
+        margin-left: 80%;
+       width: 300%;
+     }
+     50% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+      }
+  to {
+     margin-left:0%; 
+     width:100%;
+  }
+  }
+  h5{
+    background-color: #1e2220;
+  }
