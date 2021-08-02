@@ -224,16 +224,17 @@ h5{
   animation-duration: 6s;
   animation-iteration-count: infinite ;
   animation-direction:alternate;
-  }
+  font-size:large;
+}
    @keyframes slidein {
     from {  
         margin-left: 80%;
-       width: 100%;
+       
      }
     
   to {
      margin-left:0%; 
-     width:100%;
+     
   }
   }
   h5{
