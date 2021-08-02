@@ -173,12 +173,16 @@ margin-right: 45px;
 }  
 
 #rr {
-  margin-left: 5%;
+  margin-left: 1%;
   margin-right: 0%;
   font-size: 100px;
   font-weight: bolder;
   font-style: inherit;
  font-display: red;
+ padding-right: 2px;
+ padding-top: 2px;
+ padding-left: 2px;
+ 
 }
 form {
  font-size: 25px;
@@ -186,8 +190,13 @@ form {
   font-style: inherit;
  font-display: red;
 margin-left: 35%;
-padding: 3px;
-border: #009578;
+border: 0.5rem outset rgb(140, 150, 240);
+outline: 0.5rem solid rgb(16, 16, 17);
+
+border-width:thick;
+padding: 5px 5px 5px;
+padding-left: 1em;
+border-radius: 1px;
 width: 35%;
 height: 40%;
 background-color: #111312;
