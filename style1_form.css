@@ -228,13 +228,9 @@ h5{
    @keyframes slidein {
     from {  
         margin-left: 80%;
-       width: 300%;
+       width: 100%;
      }
-     50% {
-        font-size: 300%;
-        margin-left: 25%;
-        width: 150%;
-      }
+    
   to {
      margin-left:0%; 
      width:100%;
