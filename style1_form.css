@@ -1,4 +1,4 @@
-body {
+/* body {
      
     background :url('opp.jpg');
    color:#ff0040; 
@@ -240,3 +240,25 @@ h5{
   h5{
     background-color: #1e2220;
   }
+ */
+body {
+  background: #0b0b0f;
+  color: #ddd;
+  font-family: sans-serif;
+}
+
+.hero {
+  padding: 80px;
+  background: linear-gradient(145deg, #151515, #0f0f0f);
+}
+
+section {
+  padding: 60px 10%;
+}
+
+.box {
+  background: #141414;
+  padding: 15px;
+  margin-top: 12px;
+  border-left: 3px solid #4f8cff;
+}
